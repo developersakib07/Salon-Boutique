@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_extra{
+    width: 100%;
+    max-width: 1465px;
+    box-sizing:border-box;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+/* ====================================================================================topbar_section===================================================================================== */
+
+.topbar_section{
+    background:#572500;
+}
+.topbar_section .topbar_row .topbar_one .topbar_details ul li{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: white;
+}
+.topbar_section .topbar_row .topbar_one .topbar_details ul li a{
+    color: white;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social .topbar_heading h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: white;
+    padding-right: 15px;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social .topbar_heading{
+    margin-right: 15px;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social ul li a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    color: white;
+    margin-left: 18px;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social ul li a .fa-facebook-f:hover{
+    color: #037ffc;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social ul li a .fa-instagram:hover{
+    color: #f605d6;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social ul li a .fa-pinterest-p:hover{
+    color: #fc0303;
+}
+.topbar_section .topbar_row .topbar_two .topbar_social ul li a .fa-twitter:hover{
+    color: #03c6fc;
+}
+
+/* ====================================================================header_section===================================================================== */
+
+.header_section .header_row .navbar{
+    width: 100%;
+}
+.header_section .header_row .navbar .collapse ul{
+    display: flex;
+    align-items: center;
+}
+.header_section .header_row .navbar .collapse ul li a{
+    padding: 8px 25px 8px 0px;
+}
+.header_section .header_row .navbar .collapse ul li a{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4C721F;
+}
+.header_section .header_row .navbar .collapse ul li .active{
+    color: #805A3F;
+}
+.header_section .header_row .navbar .collapse ul li a:hover{
+    color: #805A3F;
+}      
+.header_section .header_row .navbar .collapse ul .last_child{
+    border: 2px solid #707070;
+}  
+.header_section .header_row .navbar .collapse ul .last_child .last_a{
+    padding-left: 25px;
+}
+.header_section .header_row .navbar .collapse ul .last_child .last_a:hover{
+    color: white;
+}
+.header_section .header_row .navbar .collapse ul .last_child:hover{
+    background-color: #4C721F;
+    border: 2px solid #4C721F;
+}
+.header_section .header_row .navbar .collapse .d-flex .input_div input{
+    border:none;
+}
+.header_section .header_row .navbar .collapse .d-flex .input_div{
+    width: 100%;
+}
+.header_section .header_row .navbar .collapse .d-flex{
+    column-gap: 3px;
+}
+.header_section .header_row .navbar .collapse .d-flex .input_div{
+    border-bottom: 1px dashed #4C721F;
+}
+.header_section .header_row .navbar .collapse .d-flex .input_div .form-control{
+    box-shadow: none;
+}
+.header_section .header_row .navbar .collapse .d-flex .input_div .form-control:focus{
+    background-color: #C5EE94;
+    color: #4C721F;
+}
+
+/* ============================================================================banner_section================================================================== */
+
+/* .banner_section .carousel_slide{
+    padding:0;
+} */
+
+.banner_section .row .carousel .carousel-inner .banner_carousel {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 63px 0 315px 0;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+}
+.banner_section .row .carousel .carousel-inner .banner_carousel::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background:black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.banner_section .carousel_slide .carousel-indicators .slide_box{
+    width:10px;
+    height:10px;
+}
+.banner_section .carousel_slide{
+    position: relative;
+}
+.banner_section .carousel_slide .carousel-indicators {
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: 2%;
+}
+.banner_section .carousel_slide .carousel-item .slide_content{
+    margin: 0 auto;
+    max-width: 1117px;
+}
+.banner_section .carousel_slide .carousel-item .slide_content .slide_title h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 500;
+    color: white;
+    width: 81%;
+    margin: 0 auto;
+    word-spacing: 13px;
+}
+.banner_section .carousel_slide .carousel-item .slide_content button{
+    padding: 18px 40px;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    line-height: 42px;
+    font-weight: 700;
+    color: white;
+    background: #4C721F;
+    margin-top: 28px;
+    border:none
+}
+.banner_section .carousel_slide .carousel-item .slide_content button:hover{
+    background: white;
+    color: #4C721F;
+}
+.banner_section .carousel_slide .carousel-control-prev,
+.banner_section .carousel_slide .carousel-control-next{
+    width: 7%;
+    z-index: 999;
+}
+
+/* =======================================================================video_section=============================================================== */
+
+.video_section{
+    padding: 99px 0 0 0;
+    background: #572500;
+}
+.video_section .video_row .video video{
+    width: 100%;
+}
+.video_section .video_row  .video_2{
+    align-items: end;
+    display: flex;
+}
+.video_section .video_row .content_section .content_heading h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 7%;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+}
+.video_section .video_row .content_section .content_div .content_pra {
+    max-width: 94%;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.video_section .video_row .content_section .content_div .content_pra p{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 112px;
+}
+.video_section .video_row .content_section .content_div button{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    color: white;
+    background: #4C721F;
+    padding: 32px 60px;
+    border: none;
+}
+.video_section .video_row .content_section .content_div button:hover{
+    color: #4C721F;
+    background: white;
+}
+.video_section .video_row .content_section .content_div{
+    padding-left: 10%;
+}
+
+/* =========================================================================services_section=========================================================================== */
+
+.services_section{
+    background: #572500;
+}
+.services_section .services_heading{
+    padding: 90px 0 57px 0;
+    padding: 90px 0 57px 19px;
+}
+.services_section .services_heading h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 455px;
+    max-width: 100%;
+    height: 401px;
+    perspective: 1000px;
+}
+.services_section .services_row .img_content .flip-card .flip-card-inner .flip-card-front .main_pic{
+  width: 100%;
+}
+.services_section .services_row .img_content .flip-card .flip-card-inner .flip-card-front:hover.middle_pic{
+    display: none;
+}
+.services_section .services_row{
+  row-gap: 10px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  }
+.flip-card-front {
+    color: black;
+}
+.flip-card-back {
+    background: #572500;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 0 58px;
+    text-align: left;
+    box-shadow: 0px 2px 4px 1px black;
+}
+.services_section .services_row .img_content .flip-card .flip-card-inner .flip-card-back p{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/* ==============================================================================what_section==================================================================== */
+
+.what_section{
+    padding: 90px 0px 40px 0px;
+    background: #572500;
+    border-bottom: 1px dashed #2680EB;
+}
+.what_section .what_section_headding h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    margin-bottom: 68px;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+}
+.what_section .content_wrapper .what_content .what_img img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.what_section .content_wrapper .what_content .what_pra p{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-align: left;
+    padding: 0px 39px
+}
+.what_section .content_wrapper .what_content .what_title h2{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+.what_section .content_wrapper .what_content .what_title h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.what_section .what_section_row .carousel .carousel-control-prev{
+    width:  2%;
+}
+.what_section .what_section_row .carousel .carousel-control-next{
+    width: 2%;
+}
+
+/* ==============================================================================product_section================================================================== */
+
+.product_section{
+    background: #572500;
+    padding: 50px 0 85px 0;
+}
+.product_section .product_heading h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    padding-left: 19px;
+    margin-bottom: 0;
+    letter-spacing: 8px;
+    word-spacing: 11px;
+}
+.product_section .container_extra .product_row .carousel .carousel-inner .col-12 .carousel-item .img_div img{
+    width: 100%;
+    margin-right: 28px;
+}
+.product_section .container_extra .product_row .carousel .carousel-inner .col-12 .carousel-item .img_div{
+    width: 100%;
+}
+
+
+/* =============================================================================sign_up_section==================================================================== */
+.sign_up_section{
+    background: #572500;
+    padding-bottom: 99px;
+}
+.sign_up_section .sign_up_row .one .sign_content .sign_heading h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    line-height: 81px;
+    font-weight: 500;
+    padding: 50px 0px 35px 0px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar{
+    width: 59%;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper{
+    width: 157%;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper a{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-right: 35px;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper form{
+    width: 64%;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper .d-flex .form-control {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    background: #987963;
+    box-shadow: none;
+}
+
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper input::placeholder{
+    color: white;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper .d-flex .input_value{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 69%;
+    background: #4C721F;
+    color: white;
+    border: none;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper{
+    padding-bottom: 80px;
+}
+
+
+
+
+
+/* ============================================================================footer_section======================================================================= */
+
+.footer_section{
+    background-image: url("../img/footer_img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 101px 0px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+.footer_section::before{
+    content:"";
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity:0.7;
+    z-index: -999;
+}
+.footer_section .footer_row .col_1 .footer_logo img{
+    width: 100%;
+    cursor: pointer;
+}
+.footer_section .footer_row .col_2 .footer_link .link_heading h2,
+.footer_section .footer_row .col_3 .footer_contact .contact_heading h2,
+.footer_section .footer_row .col_4 .footer_time .time_heading h2{
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer_section .footer_row .col_4 .footer_time{
+    padding: 20px 20px 20px 27px;
+    border: 1px solid white;
+    max-width: 100%;
+    margin-top: -23px;
+}
+.footer_section .footer_row .col_2 .footer_link .link_list ul li a,
+.footer_section .footer_row .col_3 .footer_contact .contact_list ul li a,
+.footer_section .footer_row .col_4 .footer_time .time_list ul li a{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:white;
+    padding: 0px 0px 23px 0px;
+    cursor: pointer;
+}
+.footer_section .footer_row .col_2 .footer_link .link_list ul li a:hover,
+.footer_section .footer_row .col_3 .footer_contact .contact_list ul li a:hover,
+.footer_section .footer_row .col_4 .footer_time .time_list ul li a:hover{
+    color: #FDC57C;
+}
+
+/* ============================================================================socket_section======================================================================== */
+
+.socket_section{
+    background: #000000;
+    padding: 9px 0;
+}
+.socket_section .socket_row .one .socket_pra p{
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+}
+.socket_section .socket_row{
+    align-items: center;
+}
+.socket_section .socket_row .two .social_list ul li a{
+    padding-right: 17px;
+    color: white;
+}
+.socket_section .socket_row .two .social_list ul li a i{
+    font-size: 14px;
+}
+.socket_section .socket_row .two .social_list ul li a .fa-facebook-f:hover{ 
+    color: #03befc;
+}
+.socket_section .socket_row .two .social_list ul li a .fa-instagram:hover{ 
+    color: #fc038c;
+}
+.socket_section .socket_row .two .social_list ul li a .fa-pinterest-p:hover{ 
+    color: #fc0303;
+}
+.socket_section .socket_row .two .social_list ul li a .fa-twitter:hover{ 
+    color: #03d2fc;
+}
+
+
+

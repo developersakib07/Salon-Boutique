@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+<!-- -----------------------------------------------------------------------------font-awsome cdn----------------------------------------------------------- -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- -----------------------------------------------------------------------------------google_fonts-------------------------------------------------------- -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- ------------------------------------------------------------------------------main-css----------------------------------------------------------------- -->
+<link rel="stylesheet" href="./css/final_project1.css">
+
+<!-- ---------------------------------------------------------------------------bootstrap_link-------------------------------------------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+
+<!-- --------------------------------------------------------------------------topbar_section----------------------------------------------------------------- -->
+
+    <section class="topbar_section p-1">
+        <div class="container_extra">
+            <div class="row m-0 p-0 topbar_row">
+                <div class="col-6 topbar_one align-items-center d-flex ">
+                    <div class="topbar_details ">
+                        <ul class="list-unstyled d-flex m-0 p-0">
+                            <li class="me-3" ><a href="353868219885" class="text-decoration-none"> <span><i class="fa-solid fa-phone"></i></span> 353 86 821 9885</a></li>
+                            <li class="me-3" > <span></span> Mon - Sat: 10.00 am - 5.00 pm</li>
+                            <li class="me-3" > <span></span> Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 topbar_two m-0 p-0">
+                    <div class="topbar_social  d-flex align-items-center justify-content-end">
+                        <div class="topbar_heading">
+                            <h2 class="m-0 p-0 ">Our Social</h2>
+                        </div>
+                        <ul class="list-unstyled d-flex m-0 p-0">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- -----------------------------------------------------------------------------header_section-------------------------------------------------------------- -->
+
+<section class="header_section">
+    <div class="container_extra">
+        <div class="row header_row m-0 p-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="header_img">
+                    <a class="navbar-brand" href="#"> <img src="./img/header_logo.jpg" alt=""> </a>
+                </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto p-0 m-0 text-uppercase">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Our Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Wana Duma</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item last_child">
+                        <a class="nav-link last_a" href="#">Book Now</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <div class="input_div">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                      <button class="btn search_icn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- ---------------------------------------------------------------------banner_section---------------------------------------------------------------------- -->
+
+<section class="banner_section">
+        <div class="row m-0 p-0">
+            
+
+            <div id="carouselExampleIndicators" class="carousel slide carousel_slide p-0" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active slide_box" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="slide_box" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="slide_box" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item banner_carousel active">
+                    <!-- <img src="./img/banner.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="container">
+                    <div class="slide_content text-uppercase text-center">
+                        <div class="slide_title">
+                            <h2>Our talented stylists work with you 
+                                to achieve your personal best.</h2>
+                        </div>
+                        <button type="button" class="btn btn-secondary text-uppercase">our Services</button>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item banner_carousel">
+                    <!-- <img src="./img/banner.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="container">
+                        <div class="slide_content text-uppercase text-center ">
+                            <div class="slide_title">
+                                <h2>Our talented stylists work with you 
+                                    to achieve your personal best.</h2>
+                            </div>
+                            <button type="button" class="btn btn-secondary text-uppercase">our Services</button>
+                        </div>
+                    </div>
+                   
+                  </div>
+                  <div class="carousel-item banner_carousel">
+                    <!-- <img src="./img/banner.jpg" class="d-block w-100" alt="..."> -->
+                    <div class="container">
+                        <div class="slide_content text-uppercase text-center ">
+                            <div class="slide_title">
+                                <h2>Our talented stylists work with you 
+                                    to achieve your personal best.</h2>
+                            </div>
+                            <button type="button" class="btn btn-secondary text-uppercase rounded-0">our Services</button>
+                        </div>
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="container"> 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+        </div>
+</section>
+
+<!-- ----------------------------------------------------------------------video_section---------------------------------------------------------------------- -->
+
+<section class="video_section">
+    <div class="container_extra">
+        <div class="row video_row m-0 p-0">
+            <div class="col-7 video_1 p-0 m-0">
+                <div class="video">
+                    <video src="./video/pirates of carabian.mp4" controls poster="./img/video_thumbnail.jpg"></video>
+                </div>
+            </div>
+            <div class="col-5 video_2 p-0 m-0">
+                <div class="content_section">
+                    <div class="content_heading m-0 p-0">
+                        <h2 class="text-uppercase">ABOUT US</h2>
+                    </div>
+                    <div class="content_div">
+                        <div class="content_pra">
+                            <p>At Studio 271 your well being is our greatest concern. Our caring and highly skilled professionals are ready to pamper you with our fine selection of salon and spa services and techniques and are dedicated to making you look and feel your best from head to toe. Shoaleh has been a cosmetologist since 2000. She purchased Studio 271 in 2004. Her passion is staying current in styles, trends and techniques by attending salon advanced training and hair shows regularly.</p>
+                        </div>
+                        <button type="button" class="btn btn-secondary text-uppercase rounded-0">READ MORE</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------------------------------------------------------------------services_section------------------------------------------------------------------ -->
+
+<section class="services_section ">
+    <div class="services_heading">
+        <h2 class="text-uppercase p-0 m-0">Our Services</h2>
+    </div>
+    <div class="container_extra">
+        <div class="row services_row p-0 m-0 ">
+            <div class="img_content d-flex">
+                    <div class="col-4 m-0 p-0">
+                        <div class="flip-card p-0 m-0">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="main_pic" src="./img/img_1.jpg" alt="Avatar">
+                                <!-- <img class="middle_pic" src="./img/png_1.png" alt=""> -->
+                              </div>
+                              <div class="flip-card-back d-flex align-items-center">
+                                <p>Let your feet relax in a warm soothing tub of water
+                                    with special skin softening ingredients, followed by
+                                    complete grooming of your nails, sloughing of dry
+                                    calluses, and toenails painted your favorite color!
+                                    This service is about an hour</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 m-0 p-0">
+                        <div class="flip-card p-0 m-0">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="main_pic" src="./img/img_2.jpg" alt="Avatar">
+                                <!-- <img class="middle_pic" src="./img/png_2.png" alt=""> -->
+                              </div>
+                              <div class="flip-card-back d-flex align-items-center">
+                                <p>Let your feet relax in a warm soothing tub of water
+                                    with special skin softening ingredients, followed by
+                                    complete grooming of your nails, sloughing of dry
+                                    calluses, and toenails painted your favorite color!
+                                    This service is about an hour</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 m-0 p-0">
+                        <div class="flip-card p-0 m-0">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img class="main_pic" src="./img/img_1.jpg" alt="Avatar">
+                                <!-- <img class="middle_pic" src="./img/png_3.png" alt=""> -->
+                              </div>
+                              <div class="flip-card-back d-flex align-items-center">
+                                <p>Let your feet relax in a warm soothing tub of water
+                                    with special skin softening ingredients, followed by
+                                    complete grooming of your nails, sloughing of dry
+                                    calluses, and toenails painted your favorite color!
+                                    This service is about an hour</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+            <div class="img_content d-flex">
+            <div class="col-4 m-0 p-0">
+                <div class="flip-card p-0 m-0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img class="main_pic" src="./img/img_4.jpg" alt="Avatar">
+                        <!-- <img class="middle_pic" src="./img/png_4.png" alt=""> -->
+                      </div>
+                      <div class="flip-card-back d-flex align-items-center">
+                        <p>Let your feet relax in a warm soothing tub of water
+                            with special skin softening ingredients, followed by
+                            complete grooming of your nails, sloughing of dry
+                            calluses, and toenails painted your favorite color!
+                            This service is about an hour</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 m-0 p-0">
+                <div class="flip-card p-0 m-0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img class="main_pic" src="./img/img_5.jpg" alt="Avatar">
+                        <!-- <img class="middle_pic" src="./img/png_5.png" alt=""> -->
+                      </div>
+                      <div class="flip-card-back d-flex align-items-center">
+                        <p>Let your feet relax in a warm soothing tub of water
+                            with special skin softening ingredients, followed by
+                            complete grooming of your nails, sloughing of dry
+                            calluses, and toenails painted your favorite color!
+                            This service is about an hour</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 m-0 p-0">
+                <div class="flip-card p-0 m-0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img class="main_pic" src="./img/img_6.jpg" alt="Avatar">
+                        <!-- <img class="middle_pic" src="./img/png_6.png" alt=""> -->
+                      </div>
+                      <div class="flip-card-back d-flex align-items-center">
+                        <p>Let your feet relax in a warm soothing tub of water
+                            with special skin softening ingredients, followed by
+                            complete grooming of your nails, sloughing of dry
+                            calluses, and toenails painted your favorite color!
+                            This service is about an hour</p>
+                      </div>
+                    </div>
+                </div>
+             </div>
+             </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ------------------------------------------------------------------------whtat_section------------------------------------------------------------------ -->
+
+<section class="what_section">
+    <div class="container_extra">
+        <div class="what_section_headding">
+            <h2 class="text-uppercase text-center text-light" >WHAT'S CLIENTS SAY</h2>
+        </div>
+        <div class="row what_section_row p-0 w-0">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="content_wrapper d-flex">
+                    <div class="col-4 m-0 p-0">
+                        <div class="what_content text-center">
+                            <div class="what_img">
+                                <img src="./img/what_section_png.png" alt="">
+                            </div>
+                            <div class="what_pra text-light">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                            </div>
+                            <div class="what_title">
+                                <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 m-0 p-0">
+                        <div class="what_content text-center">
+                            <div class="what_img">
+                                <img src="./img/what_section_png.png" alt="">
+                            </div>
+                            <div class="what_pra text-light">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                            </div>
+                            <div class="what_title">
+                                <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 m-0 p-0">
+                        <div class="what_content text-center">
+                            <div class="what_img">
+                                <img src="./img/what_section_png.png" alt="">
+                            </div>
+                            <div class="what_pra text-light">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                            </div>
+                            <div class="what_title">
+                                <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                  <div class="carousel-item">
+                    <div class="content_wrapper d-flex">
+                        <div class="col-4 p-0 m-0">
+                            <div class="what_content text-center">
+                                <div class="what_img">
+                                    <img src="./img/what_section_png.png" alt="">
+                                </div>
+                                <div class="what_pra text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                                </div>
+                                <div class="what_title">
+                                    <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                    <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 m-0 p-0">
+                            <div class="what_content text-center">
+                                <div class="what_img">
+                                    <img src="./img/what_section_png.png" alt="">
+                                </div>
+                                <div class="what_pra text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                                </div>
+                                <div class="what_title">
+                                    <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                    <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 m-0 p-0">
+                            <div class="what_content text-center">
+                                <div class="what_img">
+                                    <img src="./img/what_section_png.png" alt="">
+                                </div>
+                                <div class="what_pra text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                                </div>
+                                <div class="what_title">
+                                    <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                    <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="content_wrapper d-flex">
+                        <div class="col-4 p-0 m-0">
+                            <div class="what_content text-center">
+                                <div class="what_img">
+                                    <img src="./img/what_section_png.png" alt="">
+                                </div>
+                                <div class="what_pra text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                                </div>
+                                <div class="what_title">
+                                    <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                    <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 p-0 m-0">
+                            <div class="what_content text-center">
+                                <div class="what_img">
+                                    <img src="./img/what_section_png.png" alt="">
+                                </div>
+                                <div class="what_pra text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                                </div>
+                                <div class="what_title">
+                                    <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                    <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 p-0 m-0">
+                            <div class="what_content text-center">
+                                <div class="what_img">
+                                    <img src="./img/what_section_png.png" alt="">
+                                </div>
+                                <div class="what_pra text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae vehicula leo, facilisis suscipit ex. Cras lobortis justo arcu, sed aliquam neque facilisis vitae.</p>
+                                </div>
+                                <div class="what_title">
+                                    <h2 class="text-uppercase text-light">JANE DOE</h2>
+                                    <h3 class="text-uppercase text-light">CEO & Co-Founder</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ---------------------------------------------------------------------------product_section--------------------------------------------------------------------- -->
+
+<section class="product_section">
+    <div class="product_heading text-uppercase text-light">
+        <h2>Our Products</h2>
+    </div>
+    <div class="container_extra justify-content-center d-flex">
+        <div class="row product_row p-0 m-0">
+       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="col-12 p-0 m-0">
+                    <div class="carousel-item active">
+                        <div class="img_div d-flex align-items-end">
+                            <img src="./img/product_img_1.png" alt="">
+                            <img src="./img/product_img_2.png" alt="">
+                            <img src="./img/product_img_3.png" alt="">
+                            <img src="./img/product_img_4.png" alt="">
+                            <img src="./img/product_img_5.png" alt="">
+                            <img src="./img/product_img_6.png" alt="">
+                            <img src="./img/product_img_7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0 m-0">
+                    <div class="carousel-item">
+                        <div class="img_div d-flex align-items-end">
+                        <img src="./img/product_img_1.png" alt="">
+                        <img src="./img/product_img_2.png" alt="">
+                        <img src="./img/product_img_3.png" alt="">
+                        <img src="./img/product_img_4.png" alt="">
+                        <img src="./img/product_img_5.png" alt="">
+                        <img src="./img/product_img_6.png" alt="">
+                        <img src="./img/product_img_7.png" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 p-0 m-0">
+                    <div class="carousel-item">
+                        <div class="img_div d-flex align-items-end">
+                        <img src="./img/product_img_1.png" alt="">
+                        <img src="./img/product_img_2.png" alt="">
+                        <img src="./img/product_img_3.png" alt="">
+                        <img src="./img/product_img_4.png" alt="">
+                        <img src="./img/product_img_5.png" alt="">
+                        <img src="./img/product_img_6.png" alt="">
+                        <img src="./img/product_img_7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- ------------------------------------------------------------------------sign_up_section---------------------------------------------------------------- -->
+
+<section class="sign_up_section">
+    <div class="container_extra">
+        <div class="row sign_up_row m-0 p-0 bg-light">
+            <div class="col-12 one m-0 p-0">
+                <div class="sign_content text-center">
+                    <div class="sign_heading">
+                        <h2 class="">Sign up and save</h2>
+                    </div>
+                    <nav class="navbar mx-auto">
+                            <div class="navbar_wrapper d-flex mx-auto">
+                                <a class="navbar-brand">Join our mailing list</a>
+                                <form class="d-flex" role="search w-100">
+                                    <input class="form-control  rounded-0 m-0 text-light border-0" type="search" placeholder="E-mail" aria-label="Search">
+                                    <input class="input_value" type="submit" value="SEND">
+                                </form>
+                            </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------------------------------------------------------------------footer_section-------------------------------------------------------------------- -->
+
+<section class="footer_section">
+    <div class="container_extra">
+        <div class="row footer_row p-0 m-0">
+            <div class="col-2 col_1 m-0 p-0"> 
+                <div class="footer_logo">
+                    <a><img src="./img/footer_logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-4 col_2 m-0 p-0 d-flex justify-content-center">
+                <div class="footer_link">
+                    <div class="link_heading">
+                        <h2 class="text-uppercase">QUICK LINKS</h2>
+                    </div>
+                    <div class="link_list">
+                        <ul class="list-unstyled m-0 p-0 text-uppercase">
+                            <li class="pb-1"><a class="text-decoration-none" href="">wana duma</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">FAQ</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">TERMS & CONDITIONS</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">PRIVACY & SECURITY</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">OUR SERVICES</a></li>
+                            <li><a class="text-decoration-none" href="">SALONS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col_3 p-0 m-0">
+                <div class="footer_contact">
+                    <div class="contact_heading">
+                        <h2 class="text-uppercase">contact us</h2>
+                    </div>
+                    <div class="contact_list">
+                        <ul class="list-unstyled m-0 p-0 text-uppercase">
+                            <li class="pb-1"><a class="text-decoration-none" href="">Studio 271</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">9009 271st ST NW, Stanwood, WA 98292</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">360.629.3555</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="tel:+353 86 821 9885">+353 86 821 9885</a></li>
+                            <li ><a class="text-decoration-none" href="mailto:info@studio271.com">info@studio271.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col_4 p-0 m-0 justify-content-end d-flex">
+                <div class="footer_time">
+                    <div class="time_heading">
+                        <h2 class="text-uppercase">opening time</h2>
+                    </div>
+                    <div class="time_list d-flex">
+                        <ul class="list-unstyled m-0 p-0 text-uppercase">
+                            <li class="pb-1"><a class="text-decoration-none" href="">MONDAY</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">tuesday</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">wednesday</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">thursDAY</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">friday</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">saturday</a></li>
+                            <li ><a class="text-decoration-none" href="">sunday</a></li>
+                        </ul>
+                        <ul class="list-unstyled m-0 p-0 text-uppercase ps-5 pe-2">
+                            <li class="pb-1"><a class="text-decoration-none" href="">10.00 am - 05.00 pm</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">10.00 am - 05.00 pm</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">10.00 am - 05.00 pm</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">10.00 am - 05.00 pm</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">10.00 am - 05.00 pm</a></li>
+                            <li class="pb-1"><a class="text-decoration-none" href="">10.00 am - 05.00 pm</a></li>
+                            <li ><a class="text-decoration-none" href="">closed</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ---------------------------------------------------------------------------socket_section---------------------------------------------------------------- -->
+
+<section class="socket_section">
+    <div class="container_extra">
+        <div class="row socket_row m-0 p-0">
+            <div class="col-6 one p-0 m-0">
+                <div class="socket_pra">
+                    <p class="p-0 m-0" > <span class="text-light">&#169;</span> Studio 271 Salon & Boutique. All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="col-6 two p-0 m-0">
+                <div class="social_list">
+                    <ul class="list-unstyled d-flex m-0 p-0 justify-content-end">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- -----------------------------------------------------------------------javascript_link------------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
